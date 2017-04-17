@@ -642,7 +642,6 @@ def _bellman_ford_relaxation(G, pred, dist, source, weight):
                         count_v = count.get(v, 0) + 1
                         if count_v == n:
                             meta = False
-                            break
                         count[v] = count_v
                     dist[v] = dist_v
                     pred[v] = u
