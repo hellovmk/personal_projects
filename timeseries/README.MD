@@ -1,1 +1,1 @@
-This is time series wide analysis 
+Time series academic analysis 
